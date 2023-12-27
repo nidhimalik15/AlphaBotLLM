@@ -1,6 +1,6 @@
 credentials:
-  username: xxxxx
-  password: xxxxx
+  username: master
+  password: India@123
 domain:
-  endpoint: https://xxxxxxx.us-east-1.es.amazonaws.com
-  index: carmanual
+  endpoint: jumpstart-dft-hf-textembedding-gpt-20231227-101806
+  index: alphabot
