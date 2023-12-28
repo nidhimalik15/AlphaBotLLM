@@ -1,23 +1,23 @@
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: '2023-12-28'
 Description: CloudFormation Template for S3 Event and Fargate Task
 
 Parameters:
   BucketName:
     Type: String
     Description: Name of the S3 bucket
-    Default: car-manuals-12345 # Replace with actual VPC ID
+    Default: sagemaker-studio-266319754897-580gx7gmqlw # Replace with actual VPC ID
   VpcId:
     Type: String
     Description: ID of the VPC
-    Default: vpc-123456  # Replace with actual VPC ID
+    Default: vpc-097ee149ad085b071  # Replace with actual VPC ID
   SubnetId:
     Type: String
     Description: ID of the subnet
-    Default: subnet-123456 , subnet-123456  # Replace with actual subnet IDs
+    Default: subnet-0bdb2a62db0a87786  # Replace with actual subnet IDs
   Imagename:
     Type: String
     Description: Name of the ECR repository
-    Default: 123456.dkr.ecr.us-east-1.amazonaws.com/save-embedding-vectordb:latest
+    Default: 266319754897.dkr.ecr.us-east-1.amazonaws.com/alphabot
 
 Resources:
   MyLogGroup:
